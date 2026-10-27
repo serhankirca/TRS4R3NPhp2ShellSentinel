@@ -1,0 +1,13 @@
+title: Generic PHP Web Shell Indicators in URI
+id: sig-webshell-generic-local
+description: URI icinde yaygin web shell gostergeleri.
+level: high
+tags:
+  - attack.t1505.003
+detection:
+  selection:
+    uri:
+      - eval(
+      - base64_decode(
+      - shell_exec(
+  condition: selection

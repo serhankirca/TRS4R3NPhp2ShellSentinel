@@ -1,0 +1,10 @@
+title: "PHP Web Shell Obfuscation and Eval Detection"
+id: "sig-php-webshell-001"
+description: "Detects common PHP webshell obfuscation patterns including eval, base64_decode, and gzinflate."
+level: "critical"
+detection:
+  keywords:
+    - "eval("
+    - "base64_decode"
+    - "gzinflate("
+    - "str_rot13("

@@ -1,0 +1,9 @@
+title: "PHP Suspicious Multipart File Upload Vector"
+id: "sig-php-upload-004"
+description: "Detects potential web shell payload delivery via multipart transactions."
+level: "medium"
+detection:
+  keywords:
+    - "multipart/form-data"
+    - "upload"
+    - "move_uploaded_file"

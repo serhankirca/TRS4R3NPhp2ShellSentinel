@@ -1,0 +1,14 @@
+title: "PHP2Shell Configuration Override & RCE Vector"
+id: "sig-php2shell-cve-2026-109618"
+description: "Detects CVE-2026-109618/109619 exploitation attempting configuration override and code execution via request parameters."
+level: "critical"
+selection:
+  uri:
+    - "cmd="
+    - "shell="
+    - "php2shell"
+  body:
+    - "eval("
+    - "base64_decode"
+    - "passthru("
+    - "system("

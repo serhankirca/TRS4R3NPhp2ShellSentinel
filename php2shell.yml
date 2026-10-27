@@ -1,0 +1,14 @@
+title: Potential PHP2Shell Exploitation Attempt
+id: sig-php2shell-cve-2026-109618-local
+description: PHP-FPM hata gunlugunde PHP2Shell bellek tukenmesi izi.
+level: critical
+tags:
+  - attack.t1505.003
+detection:
+  selection:
+    raw:
+      - PHP Fatal error
+      - Allowed memory size
+      - bytes exhausted
+      - Unknown on line 0
+  condition: selection

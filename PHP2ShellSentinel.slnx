@@ -1,0 +1,29 @@
+<Solution>
+  <Folder Name="/rules/" />
+  <Folder Name="/rules/yara/">
+    <File Path="php-webshell-generic.yml" />
+    <File Path="php2shell.yar" />
+    <File Path="php2shell.yml" />
+    <File Path="php2shell_config_exploit.yml" />
+    <File Path="php2shell_cve_2026.yml" />
+    <File Path="php_file_upload_anomaly.yml" />
+    <File Path="php_post_exploitation_callbacks.yml" />
+    <File Path="php_rce_execution_params.yml" />
+    <File Path="webshells.yar" />
+    <File Path="webshell_eval_obfuscation.yml" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Sentinel.Cli/Sentinel.Cli.csproj" />
+    <Project Path="src/Sentinel.Collectors/Sentinel.Collectors.csproj" />
+    <Project Path="src/Sentinel.Core/Sentinel.Core.csproj" />
+    <Project Path="src/Sentinel.Detection/Sentinel.Detection.csproj" />
+    <Project Path="src/Sentinel.Reporting/Sentinel.Reporting.csproj" />
+    <Project Path="src/Sentinel.Storage/Sentinel.Storage.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <File Path="DetectionEngineTests.cs" />
+    <Project Path="tests/Sentinel.Core.Tests/Sentinel.Core.Tests.csproj" />
+    <Project Path="tests/Sentinel.Detection.Tests/Sentinel.Detection.Tests.csproj" />
+    <Project Path="tests/Sentinel.Integration.Tests/Sentinel.Integration.Tests.csproj" />
+  </Folder>
+</Solution>

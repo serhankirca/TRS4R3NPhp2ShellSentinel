@@ -1,0 +1,12 @@
+title: "PHP Remote Code Execution via Request Parameters"
+id: "sig-php-rce-002"
+description: "Detects web shell command execution parameters (cmd/shell) and system execution functions."
+level: "critical"
+detection:
+  keywords:
+    - "cmd="
+    - "shell="
+    - "passthru("
+    - "system("
+    - "shell_exec("
+    - "exec("
