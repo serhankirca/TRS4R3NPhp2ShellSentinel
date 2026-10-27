@@ -33,6 +33,8 @@ Tehdit avciligi aktif. Durdurmak için bir tusa basin...
 <img width="1292" height="787" alt="f9" src="https://github.com/user-attachments/assets/490bc7e5-61fe-4863-ae79-60d9f4c49ae3" />
 
 <img width="700" height="504" alt="f10" src="https://github.com/user-attachments/assets/0a84c149-b744-4a40-8f07-464171c20eff" />
+
+
 Burst 5x Attack
 
 <img width="1377" height="741" alt="f11" src="https://github.com/user-attachments/assets/865604f2-0734-4bd2-b283-be06b3dcfbeb" />
@@ -43,6 +45,9 @@ Burst 5x Attack
 
 <img width="1628" height="881" alt="f14" src="https://github.com/user-attachments/assets/33a791be-ab45-4588-af5c-0d14133108fc" />
 (We're updated yara rules via not closed TRS4R3N_Php2ShellSentinel)
+
+
+
 
 TRS4R3N Php2ShellSentinel Software Architecture Diagram
 
