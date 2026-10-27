@@ -47,35 +47,6 @@ Burst 5x Attack
 (We're updated yara rules via not closed TRS4R3N_Php2ShellSentinel)
 
 
-
-
 TRS4R3N Php2ShellSentinel Software Architecture Diagram
-
-┌─────────────────┐      ┌──────────────────────┐
-│  Windows 10     │      │  Windows Server 2022 │
-│  (Saldırgan)    │─────▶│  (Hedef)             │
-│                 │ HTTP │                      │
-└─────────────────┘      │  ┌────────────────┐  │
-                         │  │  IIS + PHP     │  │
-                         │  │  vulnerable.php│  │
-                         │  └────────┬───────┘  │
-                         │           │           │
-                         │           ▼           │
-                         │  ┌────────────────┐  │
-                         │  │ php_error.log  │  │
-                         │  │ access.log     │  │
-                         │  └────────┬───────┘  │
-                         │           │           │
-                         │           ▼           │
-                         │  ┌────────────────┐  │
-                         │  │  Sentinel      │  │
-                         │  │  Agent         │  │
-                         │  └────────┬───────┘  │
-                         │           │           │
-                         │           ▼           │
-                         │  ┌────────────────┐  │
-                         │  │ evidence_store │  │
-                         │  │ alerts.jsonl   │  │
-                         │  └────────────────┘  │
-                         └──────────────────────┘                         
-                         
+               
+<img width="462" height="571" alt="f15" src="https://github.com/user-attachments/assets/33045b74-3f02-429a-8ea4-33954cb1e9a0" />
